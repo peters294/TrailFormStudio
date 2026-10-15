@@ -1,6 +1,6 @@
 # Privacy Policy – TrailForm Studio
 
-**Effective date: 2026-09-29**
+**Effective date: 2026-10-15**
 
 **Contact: bus.piotrek@gmail.com**
 
@@ -16,9 +16,9 @@ The App does not request access to your device's live GPS location, contacts, or
 
 ## 2. Downloading Terrain Data
 
-If you choose to download terrain data, the App requests public elevation tiles hosted on Amazon Web Services (AWS). The request includes the geographic tile identifier, which reveals the area requested. The hosting service receives your IP address and standard connection information. Your GPX file and complete route are not uploaded as part of this request.
+If you choose to download terrain data, the App contacts public data providers directly: GUGiK / Geoportal Poland, the Autonomous Province of Bolzano, Regione del Veneto, swisstopo, Mapterhorn, or Copernicus / Mapzen data hosted on Amazon Web Services (AWS). Requests include a geographic bounding area or tile identifiers, which reveal the requested area. Providers receive your IP address and standard connection information. Automatic mode may contact several providers when a source is unavailable or lacks coverage. Your GPX file, route name and complete list of route points are not uploaded as part of these requests. Merely changing the source selector does not start a download.
 
-You can import local terrain files instead. See the [AWS Privacy Notice](https://aws.amazon.com/privacy/).
+You can import local HGT, GeoTIFF or ASC terrain files instead. Downloaded data and source notices are cached on the device and can be removed in Settings. Providers operate under their own privacy policies, including the [AWS Privacy Notice](https://aws.amazon.com/privacy/) and [Mapterhorn Privacy Policy](https://mapterhorn.com/privacy-policy/). Source and licence links for all supported providers are available in the App.
 
 ## 3. Advertising and Privacy Choices
 
@@ -26,7 +26,7 @@ The App uses Google AdMob and Google's User Messaging Platform to display advert
 
 Depending on your settings and applicable requirements, Google's advertising services may process your IP address and approximate location derived from it, advertising and app identifiers, device information, app/ad interactions, and diagnostic data. These services use data for purposes including advertising delivery, measurement, service operation, and fraud prevention. The App does not provide your GPX files, route coordinates, route names, or 3D models to the advertising SDK.
 
-Where required, a privacy message allows you to make advertising choices. You can revisit these choices through the App's advertising privacy option where available. You can also manage your advertising identifier in Android settings. Declining personalized advertising does not necessarily prevent all processing needed to serve other types of ads.
+Where required, a privacy message allows you to make advertising choices. You can revisit these choices through the App's advertising privacy option where available. You can also manage your advertising identifier in your device settings. Declining personalized advertising does not necessarily prevent all processing needed to serve other types of ads.
 
 See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from partner apps](https://policies.google.com/technologies/partner-sites).
 
@@ -36,7 +36,7 @@ The current App includes Firebase core configuration but does not use Firebase A
 
 ## 5. Exports and External Services
 
-You can save or share GPX, STL, and 3MF files using Android's file and sharing features. Files are provided to the destination you select, which may be another app, a person, or a cloud storage provider. Exported GPX files contain geographic route information. The recipient's handling of shared files is governed by its own policies.
+You can save or share GPX, STL, and 3MF files using Android or iOS file and sharing features. Files are provided to the destination you select, which may be another app, a person, or a cloud storage provider. Exported GPX files contain geographic route information. The recipient's handling of shared files is governed by its own policies.
 
 The App does not sign in to Garmin Connect or Huawei Health or access their accounts. It imports compatible files you provide. External links open services governed by their own privacy policies.
 
@@ -52,7 +52,7 @@ Where applicable data protection law requires a legal basis, we process informat
 
 Depending on your location, you may have rights to access, correct, delete, or obtain a copy of your personal data, restrict or object to processing, and withdraw consent. Withdrawal does not affect processing already lawfully carried out. You may also complain to your local data protection authority. Contact us to exercise rights concerning information we hold. We cannot remotely access or delete files stored only on your device.
 
-Google, AWS, and services you choose may process information outside your country. Their privacy notices describe relevant international transfers and safeguards.
+Google, terrain data providers, AWS, and services you choose may process information outside your country. Their privacy notices describe relevant international transfers and safeguards.
 
 ## 8. Children
 
